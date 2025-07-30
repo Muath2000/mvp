@@ -1,0 +1,20 @@
+{
+  "name": "cyberajeer",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "domains/*",
+    "database"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "start:backend": "ts-node server/index.ts"
+  },
+  "devDependencies": {
+    "turbo": "^1.11.3",
+    "typescript": "^5.2.2"
+  }
+}
