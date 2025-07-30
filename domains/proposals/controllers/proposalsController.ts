@@ -1,0 +1,1 @@
+// proposals controller placeholder
